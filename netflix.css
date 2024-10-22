@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-height: 90vh;
+}
+body{
+    background-image: url('./netflix.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    font-size:50px;
+    margin-top: 20px;
+}
+.me{
+    justify-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+      text-align: center;
+      background-color: hsla(120, 20%, 1%, 0.753);
+      margin-top:60px;
+      margin-left: 20%; /*Adjust to reduce space from the left */
+      margin-right: 20%; /*Adjust to reduce space from the right*/
+      position: relative;
+      width: 40%; /*Width adjusted according to the left and right margins */
+      height: 200%; /*Adjust to the desired height */
+      left: 160px;
+      border-radius: 10px;
+}
+.bun h2{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#kotex input{
+ width: 300px;
+  height: auto;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+#rolex input{
+ width: 300px;
+ height: auto;
+ margin-bottom: 20px;
+ padding: 15px;
+ background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);
+ border-color: rgb(0, 0, 0);
+ border-radius: 10px;  
+}
+.rolex button{
+    width: 335px;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: red;
+    border-color: red;
+    color: #fff;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.but button{
+    width: 335px;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+ul{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #fff;
+}
